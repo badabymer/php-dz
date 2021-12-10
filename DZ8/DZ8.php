@@ -43,15 +43,15 @@ function isCamelCase($string)
     return true;
 }
 
-print_r(str_to_camel('Hello World'));
+echo str_to_camel('Hello World');
 echo PHP_EOL;
-print_r(str_to_camel('hello world'));
+echo str_to_camel('hello world');
 echo PHP_EOL;
-print_r(str_to_camel('hello-world'));
+echo str_to_camel('hello-world');
 echo PHP_EOL;
-print_r(str_to_camel('hello world'));
+echo str_to_camel('hello world');
 echo PHP_EOL;
-print_r(str_to_camel('Hello_World'));
+echo str_to_camel('Hello_World');
 echo PHP_EOL;
-print_r(str_to_camel('Hello World'));
+echo str_to_camel('Hello World');
 echo PHP_EOL;
